@@ -1,0 +1,52 @@
+atv 1
+
+let n1  = 0
+
+if (n1<0) {
+    console.log("O valor do número é negativo")
+} else if (n1>= 0) {
+    console.log("O valor Número é um Número positivo")
+} {
+
+}
+
+ATV 2
+
+function numeros (){
+
+    let a = 6
+    let b = 9
+    let c = 10
+
+    let soma = a + c
+
+    if ((a + c)> b) {
+        console.log(a + "+" + c + "=" + soma)
+    }else{
+        console.log(a + "+" + c + ">=" + b)
+    }
+
+}
+numeros()
+
+
+ATV 3
+
+let horario = "vespertino"
+
+switch (horario) {
+    case 'matutino':
+        console.log("Bom Dia!")
+        break;
+        case 'vespertino':
+            console.log("Boa Tarde!")
+            break;
+            case 'noturno':
+                console.log("Boa Noite!")
+                break;
+            
+    default:
+        console.log("Valor Inválido!")
+        break;
+} 
+
